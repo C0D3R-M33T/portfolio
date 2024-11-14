@@ -24,7 +24,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Vishwas Saini
+            Lorem ipsum
           </Text>
         </LogoBox>
       </a>

@@ -17,32 +17,32 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="COMS" title="Canteen Management System" thumbnail={thumbComs}>
-            A Lamp Stack webapp, using which the canteen vendor can manage food orders efficiently.
+          <WorkGridItem id="COMS" title="Lorem ipsum" thumbnail={thumbComs}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="Adulting101"
-            title="Adulting101"
+            title="Lorem ipsum"
             thumbnail={thumbadulting101}
           >
-            A CRUD based Django webapp, with a Markdown to HTML Converter and an integrated AI chat bot.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
             id="fakeface"
-            title="Fake Face Classifier"
+            title="Lorem ipsum"
             thumbnail={thumbFakeFace}
           >
-            A Machine Learning model using CNN to classify fake images generted using Generative Adversarial Networks (GANs).
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="handgesture" thumbnail={thumbHandGesture} title="Hand Gesture Recognition">
-          A machine learning Model that will Recognize Hand Gestures in real time using CNN and automated using Raspberry pi.
+          <WorkGridItem id="Lorem ipsum" thumbnail={thumbHandGesture} title="Lorem ipsum">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </WorkGridItem>
         </Section>
       </SimpleGrid>
